@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>New Record | AlzheimerGame</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+        <!--favicon-->
+        <link rel="icon" href="panda.png" type="image/png" sizes="16x16"/>
+        
+        <!--font for menu-->
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
+        <!--font for header-->
+        <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+        
+        <!--to close window for EXIT menu-->
+        <script language="javascript" type="text/javascript">
+            function windowClose() {
+                window.open('','_parent','');
+                window.close();
+            }
+        </script>
+    </head>
+    
+    <div id="wrapper">
+        <body>
+        
+            <!--The one where I put PandaGame-->
+            <header>
+                
+                <nav>
+                    <div id="home">
+                        <button><a href="index.html"><img src="homeicon.png" height="70px"><br>HOME</a></button>
+                    </div>
+            
+                    <div id="back">
+                        <button><a href="index.html"><img src="backicon.png" height="70px"><br>BACK</a></button>
+                    </div>
+                </nav>
+                
+                <h1><img src="panda2.ico">&nbsp;PandaGame</h1>
+            </header>
+            
+            <main>
+                <h2>New Player Record</h2>
+                
+                <form>
+                    <label for="Name">Name:<br></label><input type="text">
+                    <br><br>
+                    
+                    <label for="Birthday">Date of birth:<br></label><input type="date"><br><br>
+                    
+                    <label for="ContactNumber">Contact Number:<br></label><input type="text"><br><br>
+                    
+                    <label for="prevoccupation">Previous Occupation:<br></label><input type="text"><br><br>
+                    
+                    <label for="Username">Username:<br></label><input type="text"><br><br>
+                    
+                    <label for="Severity">Severity:<br></label>
+                    <select name="severity">
+                        <option value="Mild">Mild</option>
+                        <option value="Moderate">Moderate</option>
+                        <option value="Severe">Severe</option>
+                    </select>
+                    <br><br>
+                    
+                    <label for="acadbg">Academic Background:<br></label>
+                    <select name="acadbg">
+                        <option value="None">None</option>
+                        <option value="Primary School">Primary School</option>
+                        <option value="Form3">Form 3 (SRP/LCE)</option>
+                        <option value="Form5">Form 5 (SPM/UCE)</option>
+                        <option value="University">University</option>
+                    </select>
+
+			     <br><br><input type="submit" value="Register">
+			<!--Or can use <button>Sign Up</button>, but we want to use as button to submit form-->
+		</form>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <!--
+                <button><a href="gamemenu.html"><img src="enter2.png" height="75px">&nbsp;&nbsp;NEW GAME</a></button>
+                <br>
+                <br>
+                <button><a href="profile.html"><img src="user.png" height="75px">&nbsp;&nbsp;RESUME</a></button>
+                <br>
+                <br>
+                ick="window.close()">
+                <button><a href="highscore.html"><img src="exit2.png" height="75px">&nbsp;&nbsp;HIGH SCORE</a></button> -->
+            </main>
+            
+        </body>
+        
+        <footer>
+            <p>Copyright &copy;PANDA 2019</p>
+        
+        </footer>
+    </div>
+
+</html>
